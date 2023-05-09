@@ -7,6 +7,8 @@ public interface IPatientRepository
 {
     Patient? GetById(string patientId);
     Patient Save(Patient patient);
+
+    string AddReferral(Patient patient, Referral referral);
 }
 public class PatientRepository : IPatientRepository
 {
@@ -22,7 +24,7 @@ public class PatientRepository : IPatientRepository
             lastname = "Doe",
             medicines = new List<Medicine>() { new Medicine(0.5f, "Ibuprofen")},
             allergies = new List<Allergy>() { new Allergy("gluten", "severe")},
-            referrals = new List<Referral>(),
+            referrals = new Dictionary<string, Referral>(),
             instutions =  new List<string>(){"Ziekenhuis A"}
 
         }}
@@ -47,5 +49,12 @@ public class PatientRepository : IPatientRepository
         }
         
         return patient;
+    }
+
+    public string AddReferral(Patient patient,Referral referral)
+    {
+        var referralId = Guid.NewGuid().ToString("N");
+        patient.referrals.Add(referralId,referral);
+        return referralId;
     }
 }

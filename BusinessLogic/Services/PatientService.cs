@@ -7,7 +7,7 @@ public interface IPatientService
 {
     Patient? GetById(string patientId);
     Patient Save(Patient patient);
-    Patient Reffer(Patient patient, Referral referral);
+    string Reffer(Patient patient, Referral referral);
 }
 
 public class PatientService : IPatientService
@@ -29,14 +29,13 @@ public class PatientService : IPatientService
         return _patientRepository.Save(patient);
     }
 
-    public Patient Reffer(Patient patient, Referral referral)
+    public string Reffer(Patient patient, Referral referral)
     {
-        patient.referrals.Add(referral);
         if (!patient.instutions.Contains(referral.ToInstitution))
         {
             patient.instutions.Add(referral.ToInstitution);
         }
-        
-        return Save(patient);
+        Save(patient);
+        return  _patientRepository.AddReferral(patient, referral);
     }
 }

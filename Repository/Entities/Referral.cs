@@ -1,3 +1,5 @@
-﻿namespace Repository.Entities;
+﻿using Microsoft.AspNetCore.Http;
 
-public record Referral(string FromInstitution, string ToInstitution, Stream File, string Filetype, string Type);
+namespace Repository.Entities;
+
+public record Referral(IFormFile ReferralLetter, string FromInstitution, string ToInstitution);

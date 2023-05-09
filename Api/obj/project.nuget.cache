@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3mNn4/j83LK/lW+jSIro4EjaTstgbcg4ih4tzIWqqCI5xbyri+8R5K/j2QcY85VJdHX37kO8aUIBcmogTrZ7Ig==",
+  "dgSpecHash": "K/1+bcsmT1/IRDJneuQ0le683Oceg0wYQqED3rRG5aHM8RVnBXExpAYvbu6HokvcF9BSDL5w+PtgYmFTc51tzg==",
   "success": true,
   "projectFilePath": "D:\\projects\\Assignment ChipSoft\\ChipSoftAssesment\\Api\\Api.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

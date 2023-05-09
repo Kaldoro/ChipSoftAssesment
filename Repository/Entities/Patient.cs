@@ -7,6 +7,6 @@ public class Patient
     public string? lastname;
     public List<Allergy> allergies = new List<Allergy>();
     public List<Medicine> medicines = new List<Medicine>();
-    public List<Referral> referrals = new List<Referral>();
+    public Dictionary<string, Referral> referrals = new Dictionary<string, Referral>();
     public List<string> instutions = new List<string>();
 }

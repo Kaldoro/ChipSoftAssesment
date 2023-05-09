@@ -46,3 +46,5 @@ D:\projects\Assignment ChipSoft\ChipSoftAssesment\Api\bin\Debug\net7.0\Mapster.d
 D:\projects\Assignment ChipSoft\ChipSoftAssesment\Api\bin\Debug\net7.0\Mapster.Core.dll
 D:\projects\Assignment ChipSoft\ChipSoftAssesment\Api\bin\Debug\net7.0\Api.xml
 D:\projects\Assignment ChipSoft\ChipSoftAssesment\Api\obj\Debug\net7.0\Api.xml
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Api\bin\Debug\net7.0\Serilog.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll

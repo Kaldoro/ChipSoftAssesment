@@ -10,3 +10,10 @@ D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\obj\Debug\net7.0\Re
 D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\obj\Debug\net7.0\refint\Repository.dll
 D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\obj\Debug\net7.0\Repository.pdb
 D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\obj\Debug\net7.0\ref\Repository.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Features.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\bin\Debug\net7.0\Microsoft.Net.Http.Headers.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\bin\Debug\net7.0\System.IO.Pipelines.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete

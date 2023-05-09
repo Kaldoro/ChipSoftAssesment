@@ -4,12 +4,21 @@
         <name>Api</name>
     </assembly>
     <members>
-        <member name="M:Api.Controllers.PatientController.Post(Api.Models.Requests.CreateReferralRequest)">
+        <member name="M:Api.Controllers.PatientController.PostReferPatient(System.String,Api.Models.Requests.CreateReferralRequest)">
             <summary>
             Grants permission from one institution to another to access a patient's file, along with a referral letter.
             </summary>
+            <param name="patientId">the Id of the patient for which the data is requested</param>
             <param name="createReferralRequest"></param>
-            <returns>201 status code, and returns the patientfile</returns>
+            <returns>201 status code, and returns the patient file</returns>
+        </member>
+        <member name="M:Api.Controllers.PatientController.GetPatientRefferal(System.String,System.String)">
+            <summary>
+            Get the specified referral for the specified patient
+            </summary>
+            <param name="patientId">the Id of the patient for which the data is requested</param>
+            <param name="referralId">the Id of the requested referral</param>
+            <returns>The requested referral</returns>
         </member>
         <member name="M:Api.Controllers.PatientController.GetPatientMedicine(System.String)">
             <summary>
@@ -17,6 +26,14 @@
             </summary>
             <param name="patientId">the Id of the patient for which the data is requested</param>
             <returns>A list of medicines the patient uses, alongside the dosage</returns>
+        </member>
+        <member name="M:Api.Controllers.PatientController.PostPatientAllergy(System.String,Api.Models.Requests.CreateAllergyRequest)">
+            <summary>
+            Add allergy to specified patient file
+            </summary>
+            <param name="patientId">the Id of the patient for which the data is requested</param>
+            <param name="createAllergyRequest"></param>
+            <returns>All the allergies for the patient</returns>
         </member>
     </members>
 </doc>

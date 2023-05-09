@@ -5,9 +5,7 @@ namespace Api.Models.Requests;
 public class CreateReferralRequest
 {
     [Required]
-    public string PatientId { get; set; }
-    [Required]
-    public string ReferralLetter { get; set; }
+    public IFormFile ReferralLetter { get; set; }
     [Required]
     public string FromInstitution { get; set; }
     [Required]

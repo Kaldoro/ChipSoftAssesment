@@ -1,0 +1,15 @@
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\bin\Debug\net7.0\BusinessLogic.deps.json
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\bin\Debug\net7.0\BusinessLogic.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\bin\Debug\net7.0\BusinessLogic.pdb
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\bin\Debug\net7.0\Repository.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\bin\Debug\net7.0\Repository.pdb
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.AssemblyInfo.cs
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.csproj.CopyComplete
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\refint\BusinessLogic.dll
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\BusinessLogic.pdb
+D:\projects\Assignment ChipSoft\ChipSoftAssesment\BusinessLogic\obj\Debug\net7.0\ref\BusinessLogic.dll

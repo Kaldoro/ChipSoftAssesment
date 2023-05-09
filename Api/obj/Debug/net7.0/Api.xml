@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.PatientController.Post(Api.Models.Requests.CreateReferralRequest)">
+            <summary>
+            Grants permission from one institution to another to access a patient's file, along with a referral letter.
+            </summary>
+            <param name="createReferralRequest"></param>
+            <returns>201 status code, and returns the patientfile</returns>
+        </member>
+        <member name="M:Api.Controllers.PatientController.GetPatientMedicine(System.String)">
+            <summary>
+            Gets the medicine usage for a patient 
+            </summary>
+            <param name="patientId">the Id of the patient for which the data is requested</param>
+            <returns>A list of medicines the patient uses, alongside the dosage</returns>
+        </member>
+    </members>
+</doc>
